@@ -48,3 +48,9 @@
     margin-top: 30px;
 }
 
+#next{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
