@@ -121,3 +121,97 @@
     margin: 0;
     font-size: 17px;
 }
+
+.ping{
+    background-image: url(../images/gradient2.png) , url(../images/watch.png);
+    height: 300px;
+    max-width: 1140px;
+    justify-content: center;
+    align-items: center;
+    margin : 0 230px 10px 230px;
+}
+
+.ping .items{
+    padding: 59px 617px 59px 64px;
+    height:182px;
+}
+
+.ping .items h1{
+    color:white;
+    text-align: left;
+    font-size: 40px;
+}
+
+.ping .items button{
+    background-color: #FFFFFF;
+    color: #F15B22;
+    gap: 24px;
+    font-size: 20px;
+    padding:21px 36px 20px 36px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 64px;
+    width: 160px;
+}
+
+
+footer{
+    margin-top: 130px;
+    background-color: black;
+    padding: 130px 0;
+}
+
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+
+}
+
+.footer-container .social{
+    max-width: 562px;
+
+}
+
+.footer-container h2{
+    color:white;
+    font-size: 45px;
+    margin-bottom: 16px;
+
+}
+
+.footer-container .social p{
+    color:white;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 24px;
+
+}
+
+.footer-container .icons a{
+    margin-right: 24px;
+
+}
+
+
+.form .last input[type="email"]{
+    width: 320px;
+    padding: 10px 12px;
+    background-color: black;
+    border-color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.form .click{
+    background-color: white;
+    color: red;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
+}
